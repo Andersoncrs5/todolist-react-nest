@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.btn-default {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: small;
+}
+
+.btn-delete {
+    border: 1px solid red;
+    color: red;
+}
+
+.btn-update {
+    border: 1px solid yellow;
+    color: yellow;
+    margin-right: 0.9%;
+}
+
+.btn-change {
+    border: 1px solid blue;
+    color: blue;
+    margin-right: 0.9%;
+}
+
+#textHttp {
+    color: black;
+}
+
+.HttpReponse {
+    /* position: fixed; */
+    margin-top: -4%;
+}

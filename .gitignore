@@ -1,0 +1,68 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+todolist/node_modules
+todolist/.pnp
+.pnp.js
+
+# testing
+todolist/coverage
+
+# production
+todolist/build
+
+# misc
+todolist/.DS_Store
+todolist/.env.local
+todolist/.env.development.local
+todolist/.env.test.local
+todolist/.env.production.local
+
+todolist/npm-debug.log*
+todolist/yarn-debug.log*
+todolist/yarn-error.log*
+
+############# back end
+
+# compiled output
+todolist_api/dist
+todolist_api/node_modules
+todolist_api/build
+
+# Logs
+todolist_api/logs
+todolist_api/*.log
+todolist_api/npm-debug.log*
+todolist_api/pnpm-debug.log*
+todolist_api/yarn-debug.log*
+todolist_api/yarn-error.log*
+todolist_api/lerna-debug.log*
+
+# OS
+todolist_api/.DS_Store
+
+# Tests
+todolist_api/coverage
+todolist_api/.nyc_output
+
+# IDEs and editors
+todolist_api/.idea
+todolist_api/.project
+todolist_api/.classpath
+todolist_api/.c9/
+todolist_api/*.launch
+todolist_api/.settings/
+todolist_api/*.sublime-workspace
+
+# temp directory
+todolist_api/.temp
+todolist_api/.tmp
+
+# Runtime data
+todolist_api/pids
+todolist_api/*.pid
+todolist_api/*.seed
+todolist_api/*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+todolist_api/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json

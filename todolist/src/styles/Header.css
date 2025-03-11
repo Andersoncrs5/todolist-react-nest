@@ -1,0 +1,15 @@
+h2 {
+    color: white;
+}
+
+.btn-create {
+    background-color: transparent;
+    color: green;
+    border: 1px solid green;
+    margin-right: 0.9%;
+}
+
+#title {
+    font-family: 'Courier New', Courier, monospace;
+    
+}
