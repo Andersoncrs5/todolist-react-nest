@@ -13,7 +13,7 @@ import { Todo } from './todolist/entities/todolist.entity';
       host: 'localhost',       
       port: 5432,              
       username: 'postgres',    
-      password: 'An100605$', 
+      password: '12345678', 
       database: 'todolist_api_nest', 
       entities: [Todo],            
       synchronize: true,       
